@@ -1,0 +1,20 @@
+[project]
+name = "korkh-python"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Vladimir Korkh", email = "vladimirkorh475@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+korkh-python = "korkh_python:main"
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"
+
+[tool.uv]
+package = false
